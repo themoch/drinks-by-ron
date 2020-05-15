@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+}
+
+aside {
+  min-width: 250px;
+}
+
+.drinkLink {
+  text-align: left;
+  padding: 10px 5px;
+  border-bottom: solid 1px #ccc;
+  cursor: pointer;
+}
+
+.recipeContainer {
+  flex-grow: 2;
+}
+
+.empty {
+font-size: 24px;
+margin: 50px;
+
+}
+
+.recipe {
+  display: flex;
+}
+
+.recipeLeft {
+  padding: 5px 10px 50px;;
+  margin: 20px;
+  background-color: #bFc;
+}
+ul {
+  padding-left: 15px;
+}
+
+li {
+margin-bottom: 10px
+}
